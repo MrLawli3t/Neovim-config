@@ -10,3 +10,7 @@ map("n", "<leader>cd", function ()
 	vim.notify("Changed CWD to " .. dir)
 end, { desc = "Change CWD to current file directory"}
 )
+
+map("n", "<leader>bg", function ()
+	require("config.wallpaper_picker").pick_wallpaper()
+end, { desc = "Pick wallpaper"})
