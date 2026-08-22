@@ -1,0 +1,24 @@
+# --- Neovim / Vim core overrides ---
+*.swp
+*.swo
+*~
+.netrwhist
+
+# --- Neovim local state and caches ---
+.nvim/
+.shada
+shada/
+undo/
+.vimspector.json
+
+# --- Python virtual environments (if using local provider setups) ---
+.venv/
+venv/
+
+# --- Language Server (LSP) & Formatter local caches ---
+.eslintcache
+.prettiercache
+.tsbuildinfo
+.ruff_cache/
+.pytest_cache/
+
