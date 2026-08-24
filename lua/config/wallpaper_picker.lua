@@ -6,7 +6,7 @@ local action_state = require("telescope.actions.state")
 
 local wtbg = require("wt-bg")
 
-local bg_path = "D:/Skrivebord/Neovim Wallpapers/"
+local bg_path = "C:/Users/siver/Desktop/Wallpapers"
 
 local function pick_wallpaper()
   -- 1. FINDER: list files in the wallpaper directory
