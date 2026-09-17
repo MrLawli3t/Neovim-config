@@ -24,3 +24,5 @@ map("n", "<leader>cp", function()
   vim.fn.setreg("+", path)
   vim.notify("Copied: " .. path)
 end, { desc = "Copy full directory path to clipboard" })
+
+map("n", "<Esc>", "<Cmd>noh<CR>", { desc = "Clear search highlights" })
