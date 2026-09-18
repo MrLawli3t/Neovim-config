@@ -22,3 +22,6 @@ venv/
 .ruff_cache/
 .pytest_cache/
 
+lua/config/wallpaper_picker.lua
+lua/plugins/windows_terminal_bg.lua
+lua/plugins/neovim_project.lua

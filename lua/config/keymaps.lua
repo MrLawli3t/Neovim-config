@@ -2,7 +2,8 @@ local map = vim.keymap.set
 
 vim.g.mapleader = " "
 
-map("n", "<leader>ee", vim.cmd.Ex)
+map("n", "<leader>eb", vim.cmd.Oil)
+map("n", "<leader>ew", function() vim.cmd[[Oil .]] end)
 map("n", "<leader>w", vim.cmd.w)
 map("n", "<leader>npd",	function ()
 	require("neovim-project")
@@ -24,3 +25,5 @@ map("n", "<leader>cp", function()
   vim.fn.setreg("+", path)
   vim.notify("Copied: " .. path)
 end, { desc = "Copy full directory path to clipboard" })
+
+map("n", "<Esc>", "<Cmd>noh<CR>", { desc = "Clear search highlights" })
