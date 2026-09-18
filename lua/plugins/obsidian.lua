@@ -11,7 +11,7 @@ return {
 		workspaces = {
 			{
 				name = "notes",
-				path = "D:/Dokumenter/Notes", -- adjust to wherever you want your vault
+				path = "C:/Users/siver/Documents/Notes", -- adjust to wherever you want your vault
 			},
 		},
 

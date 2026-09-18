@@ -11,3 +11,5 @@ opt.signcolumn = "yes"
 
 opt.termguicolors = true
 opt.updatetime = 250
+
+vim.g.netrw_keepdir = 0
